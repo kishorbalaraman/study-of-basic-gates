@@ -1,4 +1,6 @@
-### study-of-basic-gates
+![ex-1 output](https://github.com/user-attachments/assets/81ca5a3b-3eb6-4f81-bee4-8888fd7bfa44)![ex-1 output](https://github.com/user-attachments/assets/770149ef-6a48-49ac-9f9b-a634a9ee01f5)### study-of-basic-gates
+**Date:09/12/2025**
+
 
 **AIM:** 
 
@@ -65,15 +67,141 @@ Y= A⊕B
 **PROGRAM**
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
+```
+module Gate_1 (
+    input  wire a,     // Input A
+    input  wire b,     // Input B
+    output wire and_out,
+    output wire or_out,
+    output wire not_out,   // only on A
+    output wire nand_out,
+    output wire nor_out,
+    output wire xor_out,
+    output wire xnor_out
+);
 
- Developed by: RegisterNumber: 
+    assign and_out  = a & b;      // AND gate
+    assign or_out   = a | b;      // OR gate
+    assign not_out  = ~a;         // NOT gate (on input A)
+    assign nand_out = ~(a & b);   // NAND gate
+    assign nor_out  = ~(a | b);   // NOR gate
+    assign xor_out  = a ^ b;      // XOR gate
+    assign xnor_out = ~(a ^ b);   // XNOR gate
+
+endmodule
+```
+
+ Developed by:Kisor B RegisterNumber: 25017562
  
 **Logic symbol & Truthtable**
+<img width="975" height="618" alt="Screenshot 2025-12-09 202023" src="https://github.com/user-attachments/assets/2237f283-7609-472a-9d76-89febc419d2b" />
 
 **RTL realization Output:** 
 
 **RTL**
+![ex-1 output](https://github.com/user-attachments/assets/0a403140-c5c1-431b-ab26-0c347bc4ebc3)
 
 **Result:**
+Thus the truth table of logic gates in Quartus II using Verilog programming is verified.
+
+.
+
+.
+
+
+
+
+.
+.
+.
+
+.
+.
+.
+.
+
+
+.
+.
+
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+
 
 
