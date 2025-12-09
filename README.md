@@ -1,4 +1,4 @@
-![ex-1 output](https://github.com/user-attachments/assets/81ca5a3b-3eb6-4f81-bee4-8888fd7bfa44)![ex-1 output](https://github.com/user-attachments/assets/770149ef-6a48-49ac-9f9b-a634a9ee01f5)### study-of-basic-gates
+### study-of-basic-gates
 **Date:09/12/2025**
 
 
